@@ -1,0 +1,61 @@
+// This provides a basic styled interface for your survey application. You can further customize and enhance the styling as per your requirements.
+
+.survey-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.welcome-text, .thank-you-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.start-button, .restart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.question-container {
+  margin-top: 20px;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.rating-options {
+  margin-top: 10px;
+}
+
+.rating-options button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.skip-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.question-counter {
+  font-size: 18px;
+  margin-top: 20px;
+}
